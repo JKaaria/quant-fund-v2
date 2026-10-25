@@ -1,0 +1,521 @@
+{
+  "version": "QUANT_FUND_PUBLIC_LAUNCH_V1",
+  "copyright_holder": "KACAP Holdings LTD",
+  "license_status": "APPROVED",
+  "review": "Original software, original explanatory research and fund-derived observations only. No raw market/exchange/broker datasets, third-party images, external fonts or icon packs. Dependencies are registry references; upstream notices retained. Branding reserved.",
+  "third_party": "No third-party source or binaries vendored. License texts/notices retain upstream rights. Lock metadata does not relicense dependencies.",
+  "excluded": [
+    "Private production source/history",
+    "Raw external market data",
+    "Installed dependencies",
+    "Build cache and compiled output",
+    "Local adversarial QA fixtures"
+  ],
+  "coverage": "Every exported file except this audit and the enclosing manifest; those are generated checksum metadata.",
+  "files": [
+    {
+      "path": "data/benchmark.json",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "258fe064fd4f6c47f7019e5773720ef2ad094e8c5e71ed37353bfc6d34d4ba41"
+    },
+    {
+      "path": "data/fund.json",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "d35c8515d93755a9ccab4d5d555841715e274ba49b51e151bc6d92dc591afa5e"
+    },
+    {
+      "path": "data/latest.json",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "02d50875d039fb4d9371610a0050552151966d4e34616fdc72fd23ef5cc9e948"
+    },
+    {
+      "path": "data/manifest.json",
+      "category": "GENERATED",
+      "rights": "Underlying rights retained",
+      "sha256": "6e098ba296fc58d54925a2d70e6553a6b3309e87bba95e0e2915da21e01a249c"
+    },
+    {
+      "path": "data/methodology/methodology.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "cac4bfeb08027acd6f8d48092bf13c8e1cce4c961a5c919186375764d5a1261c"
+    },
+    {
+      "path": "data/metrics.json",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "f3500318cd7d41f8a1c3a5fda33a8f96b1de7bb12ff2ae7c7fad9f95015fda1f"
+    },
+    {
+      "path": "data/observations/2026-10-22.json",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "0486ad63276ba5875ff0b5a9fdb713efb341aaf81111aa519fc255e09d3a3042"
+    },
+    {
+      "path": "data/observations/2026-10-23.json",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "02d50875d039fb4d9371610a0050552151966d4e34616fdc72fd23ef5cc9e948"
+    },
+    {
+      "path": "data/performance.csv",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "b25cf9315bc3fd130e13e21e8abe1250078445054cb1f92ef0ffa28222e59227"
+    },
+    {
+      "path": "data/schema/publication_v1.schema.json",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0",
+      "sha256": "d22af197f7cd699467f8ea8359acccd59379701714b4b4de69a301a27ff213e8"
+    },
+    {
+      "path": "data/strategies/S001.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "6e9a2c22dfae09397802f39ab45dfafb403634446d2350497ecb36f6bd17cc49"
+    },
+    {
+      "path": "data/strategies/S031.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "7bedd00335e4ddb82cd377507801b36ffefe9fad4a050b025f8430932ee9cd8d"
+    },
+    {
+      "path": "data/strategies/S051.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "0d481abd7c4022482ec3da39f40dada0e9235884e5ef0e0f4d60fd8c18c581b1"
+    },
+    {
+      "path": "data/strategies/S076.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "e96deaf95d202717a889a2f64eb7fd863f4fbf32dde0afa99225970c632b0a8f"
+    },
+    {
+      "path": "data/strategies/S111.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "467f38385c1b5a5bac1037e151a1dcae7f7139c08e6cbc2b7bc29472dce844f5"
+    },
+    {
+      "path": "data/strategies/S122.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "3fe8465a037b4e094a9df8a6d4299f237c7bbfb89ae7b750b111fa7838d48586"
+    },
+    {
+      "path": "data/strategies/S128.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "e1025ea6462ad461b598edd05a38f40c585b30708762acabb2000a7d1fdc728f"
+    },
+    {
+      "path": "DISCLAIMER.md",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "ccb98e22c68dc2dea1b39e081cfc67216879dc0636d4e9ab633d68da649c7f7b"
+    },
+    {
+      "path": "docs/architecture.md",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "a4b0c60cb1967313d250a197c9528da0a37492c5cc791b75b444fac9f3b6dd56"
+    },
+    {
+      "path": "docs/methodology.md",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "61383bdb9a96d0dfd3b933de43bd4cfa1571828d1c30cdd92b763b039f4ce69b"
+    },
+    {
+      "path": "docs/performance.md",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "6dc4e5b6cf7409566705fe59af1e37d4fed4c95279db5dc8b02a8053fa82c4da"
+    },
+    {
+      "path": "docs/transparency.md",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "37c0fec2046468f5454219eb84c7421de6258c323550c1e6a6ff786a6bae82bb"
+    },
+    {
+      "path": "LICENSE.md",
+      "category": "RESEARCH_CONTENT",
+      "rights": "Licensing and attribution notice",
+      "sha256": "698d9501f9e0a334e6985f667adcdad822fc9b70eaa7e1fc6f836145ffcf9a30"
+    },
+    {
+      "path": "LICENSES/Apache-2.0.txt",
+      "category": "THIRD_PARTY",
+      "rights": "Upstream canonical terms/notices; not relicensed",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "LICENSES/CC-BY-NC-4.0.txt",
+      "category": "THIRD_PARTY",
+      "rights": "Upstream canonical terms/notices; not relicensed",
+      "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    },
+    {
+      "path": "LICENSES/CC-BY-NC-SA-4.0.txt",
+      "category": "THIRD_PARTY",
+      "rights": "Upstream canonical terms/notices; not relicensed",
+      "sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd"
+    },
+    {
+      "path": "NOTICE",
+      "category": "RESEARCH_CONTENT",
+      "rights": "Licensing and attribution notice",
+      "sha256": "58492667638433130051f8bb825d18cef0a3e1858e80da60c92c32b673dabed6"
+    },
+    {
+      "path": "README.md",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "fa4c2db591cfded43278015bd0e64798923eeb4bb0f3e322f236b0b5c145fe0c"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "category": "THIRD_PARTY",
+      "rights": "Upstream canonical terms/notices; not relicensed",
+      "sha256": "42ddfc76224d1bfa10806cc1a892f0e376db6ddec508a1acb8cf5dc4d44a76ea"
+    },
+    {
+      "path": "website/.gitignore",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "44e328915d5cf2c9d5b58ebcd51041491f026181b877854a53370e88699afd9f"
+    },
+    {
+      "path": "website/app/[...path]/page.tsx",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "e9c10a57689a622902e23ecb2ec400b31b59bcb184725bb8a3f4f97e033945eb"
+    },
+    {
+      "path": "website/app/globals.css",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "66bae09f5c6f05dd8a764a626b1ed320bf2796e244a6672221efdc5e5cac46ef"
+    },
+    {
+      "path": "website/app/layout.tsx",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "8db769f157929230027c40c5649d95bcaf71e38db2ae41e97ba1f50d97359e60"
+    },
+    {
+      "path": "website/app/not-found.tsx",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "64dd2a23826f01c90e797079dc6f295d5c3713c235b3d00ccd116aaaa009d220"
+    },
+    {
+      "path": "website/app/page.tsx",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "e3414484524a65e6a97802a4e5a9aaa4e7d08064020b37cfb047094a669bc59c"
+    },
+    {
+      "path": "website/app/robots.ts",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "bee3b9210f1c1150d77ca0f1500bf7393ffd1eb23177358b3033d3d77cee26f4"
+    },
+    {
+      "path": "website/app/sitemap.ts",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "ac383338725a8d0f8c402615277dd3906e625e89c028d43c55aa52f9e726de63"
+    },
+    {
+      "path": "website/components/Chart.tsx",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "9a12b80bd9ebdfed05f6049342746a0ed0725fe19549390d40319591ddd0f99b"
+    },
+    {
+      "path": "website/components/Pages.tsx",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "dfbc9142b9ae18c5f04e87bffe683d270d61e44eef4de6f0d29b64df0a6cabeb"
+    },
+    {
+      "path": "website/components/Shell.tsx",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "c937c4f5a7019772df5b799ad5a7e3dace038da21371be444bfcd064a6632ce1"
+    },
+    {
+      "path": "website/components/UI.tsx",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "bc6397c2b1a0326e49eea286c78a806bfad3ffa45ed1d37deeb0b57f78e77a3f"
+    },
+    {
+      "path": "website/lib/deployment.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "da46cf89db23c7e59def59d6f64199439e7f13f335e72fad8b26036a04ca166a"
+    },
+    {
+      "path": "website/lib/format.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "4e5c26caf27c93f6031ca35cb4b4e8e985ee51b9b0cb7b2f9792f16a5bcb3b8b"
+    },
+    {
+      "path": "website/lib/licensing.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "2ac41a43899a125a144463c9690d0bd75f5859c90b9566748b42fbca51ca3b43"
+    },
+    {
+      "path": "website/lib/privacy.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "af26338be878b2d1e345bc7f61e3cdfb8abefff5b198f64708c22e2b40b8571f"
+    },
+    {
+      "path": "website/lib/publication.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "3e827795f075b7dd121008f0921073bc05ddb550a7fdfcdf36154836302cf133"
+    },
+    {
+      "path": "website/lib/repository.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "f7cf1c83bb178b6278faabc0d5ebd0bd73e5975713eb808cb4a63761928ef220"
+    },
+    {
+      "path": "website/lib/routes.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "35bea78d4600bbf7d2bc5f106dc1584c7089461039b4c576218412477843cbbf"
+    },
+    {
+      "path": "website/lib/types.ts",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "47252307dab62adafabc7d10cdbb7d8576faf0ead7d2981732be0de56fe4e0a4"
+    },
+    {
+      "path": "website/licensing/LICENSE.md",
+      "category": "RESEARCH_CONTENT",
+      "rights": "Licensing and attribution notice",
+      "sha256": "698d9501f9e0a334e6985f667adcdad822fc9b70eaa7e1fc6f836145ffcf9a30"
+    },
+    {
+      "path": "website/licensing/LICENSES/Apache-2.0.txt",
+      "category": "THIRD_PARTY",
+      "rights": "Upstream canonical terms/notices; not relicensed",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "website/licensing/LICENSES/CC-BY-NC-4.0.txt",
+      "category": "THIRD_PARTY",
+      "rights": "Upstream canonical terms/notices; not relicensed",
+      "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    },
+    {
+      "path": "website/licensing/LICENSES/CC-BY-NC-SA-4.0.txt",
+      "category": "THIRD_PARTY",
+      "rights": "Upstream canonical terms/notices; not relicensed",
+      "sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd"
+    },
+    {
+      "path": "website/licensing/NOTICE",
+      "category": "RESEARCH_CONTENT",
+      "rights": "Licensing and attribution notice",
+      "sha256": "58492667638433130051f8bb825d18cef0a3e1858e80da60c92c32b673dabed6"
+    },
+    {
+      "path": "website/licensing/THIRD_PARTY_NOTICES.txt",
+      "category": "THIRD_PARTY",
+      "rights": "Upstream canonical terms/notices; not relicensed",
+      "sha256": "42ddfc76224d1bfa10806cc1a892f0e376db6ddec508a1acb8cf5dc4d44a76ea"
+    },
+    {
+      "path": "website/next.config.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "aa88a4907d78aa18a4d5ec468b8cbe3b54d15ae1b220e6f358eddf21a482eb22"
+    },
+    {
+      "path": "website/package-lock.json",
+      "category": "GENERATED",
+      "rights": "Underlying rights retained",
+      "sha256": "472ff36ec71c8e70d15b4c3546319379fb383ee9e87043a743f0b762bab6273e"
+    },
+    {
+      "path": "website/package.json",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "26f758614e91fdc304ef9ab13d18593feb569f262a4e060aaebb0c13aaf48b1d"
+    },
+    {
+      "path": "website/public/data/benchmark.json",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "258fe064fd4f6c47f7019e5773720ef2ad094e8c5e71ed37353bfc6d34d4ba41"
+    },
+    {
+      "path": "website/public/data/fund.json",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "d35c8515d93755a9ccab4d5d555841715e274ba49b51e151bc6d92dc591afa5e"
+    },
+    {
+      "path": "website/public/data/latest.json",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "02d50875d039fb4d9371610a0050552151966d4e34616fdc72fd23ef5cc9e948"
+    },
+    {
+      "path": "website/public/data/manifest.json",
+      "category": "GENERATED",
+      "rights": "Underlying rights retained",
+      "sha256": "6e098ba296fc58d54925a2d70e6553a6b3309e87bba95e0e2915da21e01a249c"
+    },
+    {
+      "path": "website/public/data/methodology/methodology.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "cac4bfeb08027acd6f8d48092bf13c8e1cce4c961a5c919186375764d5a1261c"
+    },
+    {
+      "path": "website/public/data/metrics.json",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "f3500318cd7d41f8a1c3a5fda33a8f96b1de7bb12ff2ae7c7fad9f95015fda1f"
+    },
+    {
+      "path": "website/public/data/observations/2026-10-22.json",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "0486ad63276ba5875ff0b5a9fdb713efb341aaf81111aa519fc255e09d3a3042"
+    },
+    {
+      "path": "website/public/data/observations/2026-10-23.json",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "02d50875d039fb4d9371610a0050552151966d4e34616fdc72fd23ef5cc9e948"
+    },
+    {
+      "path": "website/public/data/performance.csv",
+      "category": "PUBLIC_DATA",
+      "rights": "CC-BY-NC-4.0",
+      "sha256": "b25cf9315bc3fd130e13e21e8abe1250078445054cb1f92ef0ffa28222e59227"
+    },
+    {
+      "path": "website/public/data/schema/publication_v1.schema.json",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0",
+      "sha256": "d22af197f7cd699467f8ea8359acccd59379701714b4b4de69a301a27ff213e8"
+    },
+    {
+      "path": "website/public/data/strategies/S001.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "6e9a2c22dfae09397802f39ab45dfafb403634446d2350497ecb36f6bd17cc49"
+    },
+    {
+      "path": "website/public/data/strategies/S031.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "7bedd00335e4ddb82cd377507801b36ffefe9fad4a050b025f8430932ee9cd8d"
+    },
+    {
+      "path": "website/public/data/strategies/S051.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "0d481abd7c4022482ec3da39f40dada0e9235884e5ef0e0f4d60fd8c18c581b1"
+    },
+    {
+      "path": "website/public/data/strategies/S076.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "e96deaf95d202717a889a2f64eb7fd863f4fbf32dde0afa99225970c632b0a8f"
+    },
+    {
+      "path": "website/public/data/strategies/S111.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "467f38385c1b5a5bac1037e151a1dcae7f7139c08e6cbc2b7bc29472dce844f5"
+    },
+    {
+      "path": "website/public/data/strategies/S122.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "3fe8465a037b4e094a9df8a6d4299f237c7bbfb89ae7b750b111fa7838d48586"
+    },
+    {
+      "path": "website/public/data/strategies/S128.json",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "e1025ea6462ad461b598edd05a38f40c585b30708762acabb2000a7d1fdc728f"
+    },
+    {
+      "path": "website/public/favicon.svg",
+      "category": "SOFTWARE",
+      "rights": "Branding asset excluded from software grant",
+      "sha256": "d6adff7601181c67a1b7bcf7bc4e8341117d2b3a313950feecc19cbd1aad4b38"
+    },
+    {
+      "path": "website/README.md",
+      "category": "RESEARCH_CONTENT",
+      "rights": "CC-BY-NC-SA-4.0",
+      "sha256": "fac4e2af23a696e608174aec1e311222f255539d8b4d8804517bf6e08f676a8a"
+    },
+    {
+      "path": "website/scripts/check-export.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "76f61e4b5b6446d54f3a05c8d39ab3a4005b06e865f804a27c3756cae2e3c37e"
+    },
+    {
+      "path": "website/scripts/export.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "74961d0fa4313610c39092a2d83d3400c7abe7bd8aeea2b579be699768e28a53"
+    },
+    {
+      "path": "website/scripts/preview.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "b07b0ca15ffdd6a08b76d9c29682612a5364bfae28126c949e88a9fe65196fda"
+    },
+    {
+      "path": "website/scripts/status.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "d06b90c48fe06a15caa9d6543b0cf28a59374896941981dcbae804181b6041e3"
+    },
+    {
+      "path": "website/scripts/validate.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "b6d19c0f76430cf19aced9522fbe993dd9bac10bf3d44ae80b152d6dc969cbf1"
+    },
+    {
+      "path": "website/tests/public.test.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "bf87bb41805c4a3d7364408fc6b46f1a673a8e381ea5621c0864b5f3f0d67a3a"
+    },
+    {
+      "path": "website/tsconfig.json",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "accfbb6e2ccef37b5c55de01d6102114b17f5d851f993cc2fc15297097ace731"
+    }
+  ]
+}

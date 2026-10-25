@@ -1,0 +1,32 @@
+{
+  "name": "quant-fund-v2-public-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static presentation of a published paper-portfolio research record",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "NEXT_TELEMETRY_DISABLED=1 next dev --hostname 127.0.0.1",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test tests/public.test.mjs",
+    "build": "npm run validate && NEXT_TELEMETRY_DISABLED=1 next build --webpack",
+    "preview": "node scripts/preview.mjs",
+    "build-public-repo": "node scripts/export.mjs",
+    "check-export": "node scripts/check-export.mjs",
+    "status": "node scripts/status.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "ajv": "8.20.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "22.19.1",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
+  }
+}

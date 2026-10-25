@@ -6,4 +6,4 @@ The application opens only its own public/data directory. There is no runtime ba
 
 Future daily publication must copy only newly emitted public artifacts, validate their manifest/privacy, build the static website and deploy separately. Trading remains independent of website and deployment availability.
 
-The approved deployment uses only this sanitized GitHub repository, with Vercel root directory website. It requires no trading secrets. Public repository contributions never enter the private trading engine automatically. Internet publication remains separate from fund operation.
+The approved deployment builds this public repository with GitHub Actions and deploys only website/out to GitHub Pages. It requires no private credentials, backend or paid hosting. The public Pages origin and base path come from actions/configure-pages; a future custom domain can use the same workflow after separate authorization. Public repository contributions never enter the private trading engine automatically. Internet publication remains separate from fund operation.

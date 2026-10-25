@@ -15,7 +15,8 @@
     "preview": "node scripts/preview.mjs",
     "build-public-repo": "node scripts/export.mjs",
     "check-export": "node scripts/check-export.mjs",
-    "status": "node scripts/status.mjs"
+    "status": "node scripts/status.mjs",
+    "check:static": "node scripts/check-static.mjs"
   },
   "dependencies": {
     "next": "16.4.3",

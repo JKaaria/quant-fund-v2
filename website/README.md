@@ -72,16 +72,37 @@ See `licensing/LICENSE.md` and `licensing/NOTICE` for precise scopes and attribu
 Commercial licensing of original research/data may be separately arranged with the
 rights holder. Fair dealing and other legal exceptions remain unaffected.
 
-## Deployment
+## GitHub Pages deployment
 
-Deploy only the sanitized public GitHub repository to Vercel, with root directory
-`website`. No production trading credentials are required. Indexing is allowed.
-`robots.txt` and `sitemap.xml` are static outputs. The sitemap uses the confirmed
-`PUBLIC_SITE_ORIGIN` or Vercel's `VERCEL_PROJECT_PRODUCTION_URL` at build time;
-local builds without an assigned address emit no invented URLs.
-`PUBLIC_REPOSITORY_URL` may name the confirmed public GitHub repository.
-These are public metadata, not credentials. No analytics are enabled.
+The approved hosting target is GitHub Pages, using only the sanitized public
+repository. `.github/workflows/pages.yml` installs locked public dependencies,
+validates data, runs tests, exports the static site, checks every route/link/asset,
+uploads only `website/out`, and deploys through GitHub's standard Pages action.
+It runs on approved main-branch commits and manual dispatch, not pull requests.
+Build permissions are contents/read and pages/read; deployment uses pages/write
+and id-token/write. No private repository, trading credentials or backend exists.
+Actions are pinned to official immutable revisions; checkout retains no credential.
+
+GitHub's Pages configuration supplies `PUBLIC_SITE_ORIGIN` and `PUBLIC_BASE_PATH`
+at build time. Internal links, data downloads, icons and framework assets use that
+mount path. An empty base path supports a future custom domain after separate
+authorization; no domain is configured or purchased by this preparation.
+`PUBLIC_REPOSITORY_URL` identifies the verified public source repository.
+These values are public metadata, not secrets. Static robots.txt allows indexing;
+sitemap.xml enumerates every generated route using the configured public URL.
+No analytics or paid hosting is required. The site needs no running process on
+the fund machine. A failed Pages build/deployment cannot affect local publication
+or fund operation.
+
+For a project-path local build, set the confirmed public origin and mount path
+in the build environment, run `npm run build` and `npm run check:static`.
+`npm run preview` serves the same mount path on local loopback only.
+Default builds without these public values use the root path and do not invent
+an Internet origin. Financial values remain solely those in the published data.
 
 Website contributions and issues do not authorize changes to the private trading
-system. External publication must run separately and cannot block fund operation.
-No internet publisher or scheduling change is enabled by this source preparation.
+system. Daily outward pushes are separate, disabled until implemented and
+separately validated; Pages automatically rebuilds after a permitted public commit.
+The Internet never pulls from private production. External publication failures
+must be retried independently. Protected private files require explicit approval
+before any change; this workflow modifies none.

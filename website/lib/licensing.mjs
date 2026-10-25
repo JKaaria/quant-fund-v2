@@ -17,7 +17,7 @@ export function classify(name){
   return ['PUBLIC_DATA','CC-BY-NC-4.0'];
  }
  if(name.endsWith('.md'))return ['RESEARCH_CONTENT','CC-BY-NC-SA-4.0'];
- if(/\.(?:mjs|tsx|ts|css|json)$/.test(name)||name.endsWith('.gitignore'))return ['SOFTWARE','Apache-2.0; embedded original research prose retains its content license'];
+ if(/\.(?:mjs|tsx|ts|css|json|yml|yaml)$/.test(name)||name.endsWith('.gitignore')||name.endsWith('.nojekyll'))return ['SOFTWARE','Apache-2.0; embedded original research prose retains its content license'];
  return ['UNKNOWN','Exclude until reviewed'];
 }
 export function rightsAudit(files){

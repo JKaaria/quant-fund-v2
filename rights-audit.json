@@ -14,6 +14,12 @@
   "coverage": "Every exported file except this audit and the enclosing manifest; those are generated checksum metadata.",
   "files": [
     {
+      "path": ".github/workflows/pages.yml",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "74c38941d6f5be9c4307606003dd88371955ae70702d272cae01daa1422acbcc"
+    },
+    {
       "path": "data/benchmark.json",
       "category": "PUBLIC_DATA",
       "rights": "CC-BY-NC-4.0",
@@ -125,7 +131,7 @@
       "path": "docs/architecture.md",
       "category": "RESEARCH_CONTENT",
       "rights": "CC-BY-NC-SA-4.0",
-      "sha256": "a4b0c60cb1967313d250a197c9528da0a37492c5cc791b75b444fac9f3b6dd56"
+      "sha256": "72ded513792a3c53f5c65cc1235f957806fbea618d22a4199a555f3010109aca"
     },
     {
       "path": "docs/methodology.md",
@@ -179,7 +185,7 @@
       "path": "README.md",
       "category": "RESEARCH_CONTENT",
       "rights": "CC-BY-NC-SA-4.0",
-      "sha256": "fa4c2db591cfded43278015bd0e64798923eeb4bb0f3e322f236b0b5c145fe0c"
+      "sha256": "a4cc53aa81171d7352bc8e676004cf9efbc89acef4e34732888ecfe777c3c507"
     },
     {
       "path": "THIRD_PARTY_NOTICES.txt",
@@ -209,13 +215,13 @@
       "path": "website/app/layout.tsx",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "8db769f157929230027c40c5649d95bcaf71e38db2ae41e97ba1f50d97359e60"
+      "sha256": "c79103f8829c5fd89079aee36ef11da634f2f2e27e93dc72c9d965b9a1ae151a"
     },
     {
       "path": "website/app/not-found.tsx",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "64dd2a23826f01c90e797079dc6f295d5c3713c235b3d00ccd116aaaa009d220"
+      "sha256": "e9ef670a94919045ae6416817e1d2950dd4dbcb3d7f2ea0df4b8ed7108a78317"
     },
     {
       "path": "website/app/page.tsx",
@@ -227,13 +233,13 @@
       "path": "website/app/robots.ts",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "bee3b9210f1c1150d77ca0f1500bf7393ffd1eb23177358b3033d3d77cee26f4"
+      "sha256": "23f4951aec196ecc8d56c8e133205f043755845da840f8004355c8f27f0bfec1"
     },
     {
       "path": "website/app/sitemap.ts",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "ac383338725a8d0f8c402615277dd3906e625e89c028d43c55aa52f9e726de63"
+      "sha256": "71833857b73347ec3d637ec42cbc9b266ee476ac106fe698b1ae70e749ac5a03"
     },
     {
       "path": "website/components/Chart.tsx",
@@ -245,25 +251,31 @@
       "path": "website/components/Pages.tsx",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "dfbc9142b9ae18c5f04e87bffe683d270d61e44eef4de6f0d29b64df0a6cabeb"
+      "sha256": "c7d6f8677e015fb783837966b784d5b16af27e2fd30c6b2206db104ca8fd27c4"
     },
     {
       "path": "website/components/Shell.tsx",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "c937c4f5a7019772df5b799ad5a7e3dace038da21371be444bfcd064a6632ce1"
+      "sha256": "ec7784e72a2554360bba3ba8e8cdc657bfca24ad9637ff6c9b79bf6ee8a187fa"
     },
     {
       "path": "website/components/UI.tsx",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "bc6397c2b1a0326e49eea286c78a806bfad3ffa45ed1d37deeb0b57f78e77a3f"
+      "sha256": "00051f3b26f9c11533b9b460d9c596883b938e7f539400a60b4bbbb8bbe933a8"
+    },
+    {
+      "path": "website/deployment/pages.yml",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "74c38941d6f5be9c4307606003dd88371955ae70702d272cae01daa1422acbcc"
     },
     {
       "path": "website/lib/deployment.mjs",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "da46cf89db23c7e59def59d6f64199439e7f13f335e72fad8b26036a04ca166a"
+      "sha256": "3333cc8294bd1456b84d0d80e18c7cea8401a758ccb5d9208effe12028d6a849"
     },
     {
       "path": "website/lib/format.mjs",
@@ -275,7 +287,7 @@
       "path": "website/lib/licensing.mjs",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "2ac41a43899a125a144463c9690d0bd75f5859c90b9566748b42fbca51ca3b43"
+      "sha256": "dede40474005a15c0bd8a7fa96cd1d5f08fb32da0e4ebfc00eed0cbb4ac39684"
     },
     {
       "path": "website/lib/privacy.mjs",
@@ -293,7 +305,7 @@
       "path": "website/lib/repository.mjs",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "f7cf1c83bb178b6278faabc0d5ebd0bd73e5975713eb808cb4a63761928ef220"
+      "sha256": "f6a12bfc3e58debcd1582c02e9b90d3bae962b64af8d05324f4077eaf52f721e"
     },
     {
       "path": "website/lib/routes.mjs",
@@ -347,7 +359,7 @@
       "path": "website/next.config.mjs",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "aa88a4907d78aa18a4d5ec468b8cbe3b54d15ae1b220e6f358eddf21a482eb22"
+      "sha256": "6bca15bfbcab0e4d744d4ebaea20317de643fe2b14931f1c5457b585a3bca026"
     },
     {
       "path": "website/package-lock.json",
@@ -359,7 +371,13 @@
       "path": "website/package.json",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "26f758614e91fdc304ef9ab13d18593feb569f262a4e060aaebb0c13aaf48b1d"
+      "sha256": "52d50dcf77e293ee251172b34a9674f7ca99ffabff2cd3a042b459b7a660c436"
+    },
+    {
+      "path": "website/public/.nojekyll",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "path": "website/public/data/benchmark.json",
@@ -473,13 +491,19 @@
       "path": "website/README.md",
       "category": "RESEARCH_CONTENT",
       "rights": "CC-BY-NC-SA-4.0",
-      "sha256": "fac4e2af23a696e608174aec1e311222f255539d8b4d8804517bf6e08f676a8a"
+      "sha256": "af9ffd9f1f8d36f9b74d8aedcddc94728d350853fc267254bd57f7e62e1879a2"
     },
     {
       "path": "website/scripts/check-export.mjs",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
       "sha256": "76f61e4b5b6446d54f3a05c8d39ab3a4005b06e865f804a27c3756cae2e3c37e"
+    },
+    {
+      "path": "website/scripts/check-static.mjs",
+      "category": "SOFTWARE",
+      "rights": "Apache-2.0; embedded original research prose retains its content license",
+      "sha256": "7fdc267b9517cf17a1eff76ac4ed42c4ca2c67a7e3b355ff56e312aded63aeed"
     },
     {
       "path": "website/scripts/export.mjs",
@@ -491,7 +515,7 @@
       "path": "website/scripts/preview.mjs",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "b07b0ca15ffdd6a08b76d9c29682612a5364bfae28126c949e88a9fe65196fda"
+      "sha256": "653bd460b8457281dfda2d7d1051322482c97243b1d32d794d3ac91a0294e99b"
     },
     {
       "path": "website/scripts/status.mjs",
@@ -509,7 +533,7 @@
       "path": "website/tests/public.test.mjs",
       "category": "SOFTWARE",
       "rights": "Apache-2.0; embedded original research prose retains its content license",
-      "sha256": "bf87bb41805c4a3d7364408fc6b46f1a673a8e381ea5621c0864b5f3f0d67a3a"
+      "sha256": "45d692acf935116da9d05f1c9b2f08fe6ea2b03d0d7e294ac341c0d1967aca4d"
     },
     {
       "path": "website/tsconfig.json",

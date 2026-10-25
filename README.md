@@ -25,7 +25,7 @@ Market Data → Regime Assessment → Frozen Strategies → Eligibility → Capi
 
 Publication hashes fingerprint individual observations. The public manifest binds emitted files. The website validates schema and checksums before building; it neither calculates competing performance statistics nor connects to production systems.
 
-To build: use Node.js 22+, enter website/, run npm ci, npm test and npm run build. The out/ directory is a portable static website. External publication requires the final rights and security gates. No private version history is included.
+To build: use Node.js 22+, enter website/, run npm ci, npm test and npm run build. The out/ directory is a portable static website. The .github/workflows/pages.yml workflow builds and deploys only this sanitized source to GitHub Pages after approved main-branch changes. GitHub Pages determines the public origin and base path; no private machine serves the website. No private version history is included.
 
 ## Disclosure
 
